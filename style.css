@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css2?family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap');
+body {
+    font-family:   "Urbanist", sans-serif;
+    padding: 0;
+    margin: 20px;
+    box-sizing: border-box;
+    background-color: #fff;
+    box-sizing: border-box;
+
+}
+
+form {
+    padding: 50px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+    margin: auto;
+    max-width: 600px;
+    border-radius: 8px;
+    background: linear-gradient(to top right,rgba(252, 182, 194,0.9)40%, rgba(192, 89, 192, 0.9))
+    
+}
+
+fieldset {
+    border: 2px solid rgb(62, 62, 245);
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 20px;
+
+}
+
+h1 {
+    text-align: center;
+    font-size: 45px;
+    font-weight: 600;
+    color: black;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    filter:drop-shadow( -5px 0 2px rgb(111, 111, 228));
+}
+
+legend {
+    font-weight: bold;
+    text-align: left;
+    font-size: 23px;
+}
+
+label {
+    display: block;
+    margin-top: 10px;
+    color:black;
+    font-weight: 600;
+    font-size: 17px;
+}
+
+input,textarea {
+    margin-top: 4px;
+    padding: 8px;
+    width:calc(100% - 1px);
+    border: 1px solid rgb(103, 103, 253);
+    border-radius: 8px;
+    box-sizing: border-box;
+    
+}
+
+button {
+    background: linear-gradient(rgb(40, 40, 221), pink);
+    padding: 10px;
+    font-size:18px;
+    font-weight: bold;
+    border-radius: 10px;
+    margin-top: 10px;
+    width:100%;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    color: rgb(116, 8, 26);
+    font-weight: bold;
+    font-size: 20px;
+}
+
+#resume-display {
+    max-width: 600px;
+    margin: auto;
+    padding: 50px;
+    background: linear-gradient(to top right,rgba(252, 182, 194,0.9)40%, rgba(192, 89, 192, 0.9));
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+    border: 2px solid rgb(62, 62, 245);
+    border-radius: 8px;
+
+}
+
+#resume-display h2 {
+    color:black;
+    font-size: 35px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-decoration-line: underline;
+    text-decoration-color: rgb(74, 74, 233);
+    text-decoration-style: double;
+}
+
+/* Media Queries for Smaller Screens (Tablets and Mobiles) */
+
+/*for tablets */
+@media (max-width: 768px) {
+    body {
+        margin: 10px;
+    }
+
+    form {
+        padding: 30px;
+        width: 90%;
+    }
+
+    h1 {
+        font-size: 35px;
+    }
+
+    button {
+        font-size: 16px;
+    }
+
+    #resume-display h2 {
+        font-size: 28px; 
+    }
+}
+
+
+/* for mobiles */
+@media (max-width: 480px) {
+    form {
+        padding: 20px;
+        width: 100%;
+    }
+
+    h1 {
+        font-size: 28px;
+    }
+
+    label {
+        font-size: 15px;
+    }
+
+    button {
+        font-size: 14px;
+        padding: 8px;
+    }
+
+    #resume-display {
+        padding: 15px;
+        font-size: 14px;
+    }
+
+    #resume-display h2 {
+        font-size: 24px; 
+    }
+}
+
+
+
+
+
+
